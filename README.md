@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Aplicación Web de Apuntes Personales
+
+Este proyecto surje con la necesidad personal de tener en un solo lugar todos los: recursos, apuntes, cheatsheets, tips que voy guardando día a día en diferentes aplicación como Twitter, Linkedin, etc.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
