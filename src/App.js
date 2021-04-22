@@ -1,10 +1,18 @@
+import Header from "./components/layout/header/Header";
+import Aside from "./components/layout/aside/Aside";
+import Main from "./components/layout/main/Main";
+
 function App() {
 	return (
-		<div class='h-screen grid grid-rows-6 grid-flow-col'>
-			<div class='w-16 row-span-6 bg-purple-200'>aside</div>
-			<div class='row-span-1  bg-pink-200'>nav</div>
-			<div class='row-span-5   bg-blue-200'>main</div>
-		</div>
+		<>
+			<Header />
+			<div className="w-full max-w-screen-2xl mx-auto">
+				<div className="flex ">
+					<Aside />
+					<Main />
+				</div>
+			</div>
+		</>
 	);
 }
 

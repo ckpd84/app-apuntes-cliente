@@ -5,7 +5,13 @@ module.exports = {
 		container: {
 			center: true,
 		},
-		extend: {},
+		extend: {
+			colors: {
+				lila: "#d6bfff",
+				rosa: "#ffbfe2",
+				amarillo: "#f9ffbf",
+			},
+		},
 	},
 	variants: {
 		extend: {},
